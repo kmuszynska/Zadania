@@ -26,17 +26,20 @@ public class Hexagon {
         double circuit = 6 * alfa;
         System.out.format("Obwód tego sześciokąta foremnego wynosi: " + "%.2f%n", circuit);
     }
-    public static void longerDiagonal (double alfa){
-        double longerDiagonal = 2*alfa;
+
+    public static void longerDiagonal(double alfa) {
+        double longerDiagonal = 2 * alfa;
         System.out.format("Dłuższa przekątna tego sześciokąta foremengo to dwie długości jego boku i wynosi: "
-                +"%.2f%n",longerDiagonal);
+                + "%.2f%n", longerDiagonal);
     }
-    public static void shorterDiagonal (double alfa){
-        double shorterDiagonal = alfa*Math.cbrt(3);
-        System.out.format("Krótsza krawędź tego sześciokąta foremnego wynosi: "+"%.2f%n",shorterDiagonal);
+
+    public static void shorterDiagonal(double alfa) {
+        double shorterDiagonal = alfa * Math.cbrt(3);
+        System.out.format("Krótsza krawędź tego sześciokąta foremnego wynosi: " + "%.2f%n", shorterDiagonal);
     }
-    public static void radius (double alfa){
-        double radius = (alfa*Math.cbrt(3))/2;
-        System.out.format("Długość promienia okręgu wpisanego w ten sześciokąt foremny wynosi: "+"%.2f%n",radius);
+
+    public static void radius(double alfa) {
+        double radius = (alfa * Math.cbrt(3)) / 2;
+        System.out.format("Długość promienia okręgu wpisanego w ten sześciokąt foremny wynosi: " + "%.2f%n", radius);
     }
 }

@@ -20,11 +20,11 @@ public class Flag {
                         j++;
 
                     } while (j <= 41);*/
-                }
-
             }
+
         }
     }
+}
 
 
 
