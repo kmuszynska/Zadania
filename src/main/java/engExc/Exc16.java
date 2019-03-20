@@ -17,6 +17,6 @@ public class Exc16 {
         System.out.println();
         System.out.println("Spiral form:");
 
-        
+
     }
 }
